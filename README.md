@@ -7,3 +7,5 @@ JS Back-End Course-sept-2024
 3. Setup Handlebars
 4. Add Resources
 5. Setup static rout
+6. Render home page
+7. Add router setup
