@@ -9,3 +9,4 @@ JS Back-End Course-sept-2024
 5. Setup static rout
 6. Render home page
 7. Add router setup
+8. extract Partial Template
