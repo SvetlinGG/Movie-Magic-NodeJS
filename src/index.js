@@ -5,13 +5,15 @@ const app = express();
 const port = 3000;
 
 app.engine('hbs', handlebars.engine({
-    extname: 'hbs,'
+    extname: 'hbs',
 }));
 app.set('view engine', 'hbs');
 app.set('views', './src/views');
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('home');
 });
 
 
