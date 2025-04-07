@@ -1,7 +1,7 @@
 
+import movieData from '../data/movieData.js';
 
-
-const getAll = () => movies;
+const getAll = () => movieData.getMovies();
 
 export default {
     getAll,
