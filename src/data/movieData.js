@@ -4,7 +4,8 @@ import path from 'path';
 
 
 async function getMovies(){
-    const db = await fs.readFile(path.resolve('./src/db.json'));
+    const dbPath = path.resolve('./src/db.json')
+    const db = await fs.readFile(dbPath);
 
     return db.movies;
 }
