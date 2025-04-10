@@ -11,8 +11,7 @@ async function getDb(){
 }
 
 async function getMovies(){
-    const db = await getDb();
-    
+    const db = await getDb(); 
 
     return db.movies;
 }
